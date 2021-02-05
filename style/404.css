@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;;
+    background-image: linear-gradient(to bottom right, rgb(34, 115, 207), rgb(135, 102, 224), rgb(193, 133, 228), rgb(253, 129, 226));
+    color: rgb(255, 255, 255);
+}
+
+#logo {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    font-size: 4vh;
+    font-family: 'Carter One', sans-serif;
+    letter-spacing: 1px;
+}
+
+#message {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3vh;
+    letter-spacing: 1px;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
